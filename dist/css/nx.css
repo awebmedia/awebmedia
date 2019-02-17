@@ -1,0 +1,95 @@
+html{
+	font: 700 16px/1.2 'Raleway', sans-serif;
+	color: #111111;
+}
+body{    
+	font-weight: 700;
+    background-color: #F2F2F2;
+}
+
+/**-FONT-**/
+
+.t_NUM{	font-family: 'Roboto', sans-serif !important; 	}
+
+
+.t_w0{ 	font-weight: 700; }
+.t_w4{ 	font-weight: 800; }
+.t_w3{ 	font-weight: 600; }
+.t_w2{ 	font-weight: 500; }
+.t_w1{ 	font-weight: 300; }
+
+.t_d{	text-decoration: underline;	}
+
+.t_c0{	color: #111111; }
+.t_c1{	color: #ffffff;	}
+.t_c2{	color: #674081;	}
+.t_c3{	color: #FFD000;	}
+
+.t_s40{  font-size: 10em;    }
+.t_s36{  font-size: 9em;     }
+.t_s29{  font-size: 7.25em;  }
+.t_s25{  font-size: 6.25em;  }
+.t_s23{  font-size: 5.75em;  }
+.t_s22{  font-size: 5.5em;   }
+.t_s20{  font-size: 5em;     }
+.t_s18{  font-size: 4.5em;   }
+.t_s16{  font-size: 4em;     }
+.t_s15{  font-size: 3.75em;  }
+.t_s14{  font-size: 3.5em;   }
+.t_s12{  font-size: 3em;     }
+
+/**-END_FONT-**/
+
+a{
+	text-decoration: none;
+}
+
+.button{
+    height: 64px;
+    width: 100%;
+    border: 2px solid;
+    text-align: center;
+    line-height: 3.2;
+    box-sizing: border-box;
+}
+.button_disable{
+    opacity: 0.3;
+}
+.button_t1:not(.button_disable):hover{
+    background-color: #FFD000;
+    border-color: #FFD000;
+    cursor: pointer;
+}
+.button_t1{
+    color: #111111;
+}
+.button_t1{
+    
+}
+.button span{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.button_t2{
+    height: 64px;
+    width: 100%;
+    border: 2px solid;
+    text-align: center;
+    line-height: 3.2;
+    box-sizing: border-box;
+}
+.button_t2:not(.button_disable):hover{
+    background-color: #ffffff;
+    border-color: #ffffff;
+    cursor: pointer;
+}
+.button_t2:not(.button_disable):hover span{
+    color: #111111;
+}
+.button_t2{
+    color: white;
+}
+.button_t2{
+    
+}

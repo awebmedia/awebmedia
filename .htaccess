@@ -1,0 +1,19 @@
+<IfModule mod_headers.c>
+	Header append Cache-Control "no-store, no-cache, must-revalidate"
+</IfModule>
+
+<FilesMatch ".(css)$">
+    Header append Cache-Control "no-store, no-cache, must-revalidate"
+</FilesMatch>
+
+
+<IfModule mod_expires.c>
+        ExpiresActive On ExpiresDefault "now"
+</IfModule>
+
+RewriteEngine On  
+RewriteBase / 
+RewriteRule ^(.*?\/\.test)(\?.*?)?$ .test/ [L]
+RewriteCond %{SCRIPT_FILENAME} !-d  
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteRule ^(.*?)(\?.*?)?$ ./index.php?route=$1 [QSA]

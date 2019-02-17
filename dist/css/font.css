@@ -1,0 +1,89 @@
+/**
+* Raleway [RL]
+* Roboto [RB]
+*
+*
+* RL700
+* RL600
+* RL500
+* RL300
+* -
+* RB700
+* RB500
+* RB400
+* RB300
+*/
+@font-face {
+  font-family: 'Raleway';
+  src: local('Raleway Bold'), local('Raleway-Bold'),
+    url(https://awebmedia.ru/scr/font/woff/Raleway/Raleway-Bold.woff) format('woff'),
+    url(https://awebmedia.ru/scr/font/woff2/Raleway/Raleway-Bold.woff2) format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Raleway';
+  src: local('Raleway SemiBold'), local('Raleway-SemiBold'),
+    url(http://awebmedia.ru/scr/font/woff/Raleway/Raleway-SemiBold.woff) format('woff'),
+    url(http://awebmedia.ru/scr/font/woff2/Raleway/Raleway-SemiBold.woff2) format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Raleway';
+  src: local('Raleway Medium'), local('Raleway-Medium'),
+    url(https://awebmedia.ru/scr/font/woff/Raleway/Raleway-Medium.woff) format('woff'),
+    url(https://awebmedia.ru/scr/font/woff2/Raleway/Raleway-Medium.woff2) format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Raleway';
+  src: local('Raleway Light'), local('Raleway-Light'),
+    url(https://awebmedia.ru/scr/font/woff/Raleway/Raleway-Light.woff) format('woff'),
+    url(https://awebmedia.ru/scr/font/woff2/Raleway/Raleway-Light.woff2) format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto Bold'), local('Roboto-Bold'),
+    url(https://awebmedia.ru/scr/font/woff/Roboto/Roboto-Bold.woff) format('woff'),
+    url(https://awebmedia.ru/scr/font/woff2/Roboto/Roboto-Bold.woff2) format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto Medium'), local('Roboto-Medium'),
+    url(https://awebmedia.ru/scr/font/woff/Roboto/Roboto-Medium.woff) format('woff'),
+    url(https://awebmedia.ru/scr/font/woff2/Roboto/Roboto-Medium.woff2) format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto'), local('Roboto-Regular'),
+    url(https://awebmedia.ru/scr/font/woff/Roboto/Roboto-Regular.woff) format('woff'),
+    url(https://awebmedia.ru/scr/font/woff2/Roboto/Roboto-Regular.woff2) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {/
+  font-family: 'Roboto';
+  src: local('Roboto Light'), local('Roboto-Light'),
+    url(https://awebmedia.ru/scr/font/woff/Roboto/Roboto-Light.woff) format('woff'),
+    url(https://awebmedia.ru/scr/font/woff2/Roboto/Roboto-Light.woff2) format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+/**
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+**/
